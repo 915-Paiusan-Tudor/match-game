@@ -1,0 +1,36 @@
+body{
+    background-color: #333;
+}
+#container{
+    max-width: 1300px;
+    margin: 64px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    min-width: 250px;
+    height: 350px;
+    background-color: #222;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6em;
+    color: orange;
+    opacity: 100%;
+    transition: all 0.3s;
+}
+.found{
+    opacity: 0;
+}
+p{
+    opacity: 0;
+    transition: all 0.3s;
+    user-select: none;
+}
+.active p{
+    opacity: 100%;
+}
