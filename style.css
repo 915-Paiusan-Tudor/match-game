@@ -23,6 +23,10 @@ body{
     opacity: 100%;
     transition: all 0.3s;
 }
+.card:hover{
+    background-color: rgb(40, 40, 40);
+    transform: rotate(-1deg) scale(0.95);
+}
 .found{
     opacity: 0;
 }
